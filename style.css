@@ -345,3 +345,134 @@ nav>div{
     height: 550px;
     margin: 10px 0px;
 }
+
+
+
+/* My current target section */
+
+#current-target{
+
+margin: 0 auto;
+    width: 1140px;
+height: 460px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 200px;
+        
+}
+
+
+/* My current taget -- section header */
+
+
+.target-header > h1{
+
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 24px;
+}
+
+.target-header >p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px;
+}
+
+/* code for 3 cards to bring them in a line */
+.target-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 1140px;
+    height: 299px;
+}
+
+/* code for every card to make them perfect */
+.card-bg{
+
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+}
+
+
+/* card er text er jonno */
+.card-content{
+    width: 284px;
+    height: 219px;
+
+    
+
+}
+
+.card-content > h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin: 8px 0px;
+    width: 284px;
+    height: 36px;
+}
+
+.card-content >p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    /* margin-bottom: 24px; */
+    margin: 8px 0px;
+    width: 284px;
+    height: 52px;
+
+}
+
+
+.card-content >a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+
+    /* margin-top: 24px ;        margin top ekhane kaj kore nai   */
+}
+
+.card-content>img{
+
+    width: 56px;
+    height: 56px;
+}
