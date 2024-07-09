@@ -18,7 +18,7 @@ nav>div{
 
 /* Banner css code */
 
-.banner{
+#banner{
     /* width: 1510px; */
     height: 670px;
     background-image: url("assets/Hero-bg.png");
@@ -104,7 +104,7 @@ nav>div{
 
 
 /* why-web-dev er main section er alingment fixing css code  */
-.why-web-dev{
+#why-web-dev{
     border: 3px solid rgb(126, 126, 131);
     margin: 0 auto;
     width: 1140px;
@@ -256,4 +256,92 @@ nav>div{
     gap: 98.83px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/* inspiration section  */
+
+
+/* inspiration  full box content er alingment er css code */
+#inspiration{
+    margin: 0 auto;
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 151px;
+}
+
+
+/* description er text er alingment er css code */
+.inspire-description{
+    width: 852px;
+    height: 113px;
+    margin: 48px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+} 
+
+
+/* inspiration er text */
+.inspire-description > h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+/* isnpiration er paragraph */
+.inspire-description >p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+    width: 852px;
+    height: 52px;
+}
+
+
+/* vdo section er border and background   er code */
+.inspire-vdo{
+
+    display: flex;
+
+     margin: 0 auto;
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px 0px; 
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+}
+
+/* vdo er frame  */
+.inspire-vdo .vdo{
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
+    margin: 10px 0px;
 }
