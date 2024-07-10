@@ -482,7 +482,7 @@ margin-bottom: 111px;
 /* -----Suggestion section */
 
 /* fixing suggestion section's bg and it's items alingment */
-.suggestion{
+#suggestion{
 
     background-image:  linear-gradient(to top ,rgba(22, 22, 22, 0.879), rgba(36, 36, 36, 0) 70.71%),
     linear-gradient(rgba(11, 11, 11, 0.8), rgba(7, 7, 7, 0) 70.71%),
@@ -498,13 +498,9 @@ margin-bottom: 111px;
     align-items: center;
     border-radius: 16px;
 
-    margin-bottom: 600px;
+    margin-bottom: 84px;
     padding: 64px 48px 64px 48px;
     
-
-
-   
-
 }
 
 .suggestion-header{
@@ -587,3 +583,47 @@ margin-bottom: 111px;
     text-align: left;
    
 }
+
+
+
+/* contact */
+#contact{
+/* 
+
+    /* width: 1440px; */
+    height: 100px;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+
+/* full  items  alingmnet */
+.contact-content{
+    width: 1140px;
+height: 36px;
+margin: 0 auto;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.contact-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+/* link er maje gap er css code */
+.contact-icon > a{
+    margin: 0px 10px;
+}
+
