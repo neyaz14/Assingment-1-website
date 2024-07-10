@@ -39,12 +39,13 @@ nav > div> h3{
     border-radius: 8px;
     opacity: 0.8;
     background-color: rgb(255, 255, 255);
+    padding: 17px 24px 17px 24px;
        
 
 }
 
 
-.nav-btn-text{
+.nav-btn>button>a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -55,7 +56,7 @@ nav > div> h3{
     padding: 17px 24px 17px 24px;
     width: 228px;
     height: 58px;
-
+    text-decoration: none;
 }
 
 
