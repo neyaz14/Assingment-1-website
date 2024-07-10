@@ -523,6 +523,107 @@ margin-bottom: 111px;
 
 
 
+/* --------Next target section ----------- */
+
+/* to bring all content in center */
+#next-target{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 866px;
+ 
+}
+
+/* to fix section's alingment */
+.target-section{
+
+    width: 1140px;
+    height: 705px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    margin-top: 48px;
+
+}
+
+/* every card's all element alingment fix */
+.section-content{
+    width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0 24px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 24px;
+
+}
+
+/* inside the card */
+.content-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 892.49px;
+    height: 139px;
+    margin-left: 24px;
+}
+
+.content-description > h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0;
+    }
+
+.content-description >p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    width: 941.22px;
+    height: 52px;
+    margin: 8px 0;
+}
+
+.content-description > a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+
+
+
+
+
+
+
+
+
 /* -----Suggestion section */
 
 /* fixing suggestion section's bg and it's items alingment */
@@ -541,7 +642,7 @@ margin-bottom: 111px;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-
+    margin-top: 49px;
     margin-bottom: 84px;
     padding: 64px 48px 64px 48px;
     
