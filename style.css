@@ -9,11 +9,55 @@
 
 /* Nav bar */
 
-nav>div{
+.nav-content{
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:center;
+    align-items: baseline;
+    align-content: center;
+    margin-top: 38px;
+    margin-bottom: 36px;
+    gap: 960px;
+    /* margin-top: 25px;
+    margin-bottom: 50px; */
 }
+
+nav > div> h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+   
+    /* padding-top: 47px; */
+    
+}
+.nav-content> div > button{
+   
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+       
+
+}
+
+
+.nav-btn-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+    width: 228px;
+    height: 58px;
+
+}
+
 
 
 /* Banner css code */
@@ -32,7 +76,7 @@ nav>div{
     justify-content: flex-start;
     align-items: center;
 
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin-bottom: 74px;
 }
 
@@ -105,15 +149,15 @@ nav>div{
 
 /* why-web-dev er main section er alingment fixing css code  */
 #why-web-dev{
-    border: 3px solid rgb(126, 126, 131);
+
     margin: 0 auto;
     width: 1140px;
-    height: 1300px;
+    height: 1390px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /* padding: 80px 97px 80px 97px; */
+    padding: 80px 97px 80px 97px;
 
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -591,7 +635,7 @@ margin-bottom: 111px;
 /* 
 
     /* width: 1440px; */
-    height: 100px;
+    height: 90px;
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
