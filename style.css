@@ -348,7 +348,7 @@ nav>div{
 
 
 
-/* My current target section */
+/*------------ My current target section ----- */
 
 #current-target{
 
@@ -360,7 +360,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-margin-bottom: 200px;
+margin-bottom: 111px;
         
 }
 
@@ -475,4 +475,115 @@ margin-bottom: 200px;
 
     width: 56px;
     height: 56px;
+}
+
+
+
+/* -----Suggestion section */
+
+/* fixing suggestion section's bg and it's items alingment */
+.suggestion{
+
+    background-image:  linear-gradient(to top ,rgba(22, 22, 22, 0.879), rgba(36, 36, 36, 0) 70.71%),
+    linear-gradient(rgba(11, 11, 11, 0.8), rgba(7, 7, 7, 0) 70.71%),
+     url("assets/handshake.jpg");
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+
+    margin-bottom: 600px;
+    padding: 64px 48px 64px 48px;
+    
+
+
+   
+
+}
+
+.suggestion-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion-header >h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin: 16px 0;
+
+}
+
+.suggestion-header >p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+
+}
+
+/* suggestion section form   alingment set */
+.suggestion-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+/* button er bg , text etc css code */
+.form-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
+    margin: 24px 16px;
+}
+
+
+/* input field er css code */
+.form-input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 24px 16px;
+    width: 548px;
+    height: 55px;
+    padding-left: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+/* placeholder er css code */
+.suggestion-form > input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+   
 }
