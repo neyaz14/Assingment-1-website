@@ -19,8 +19,7 @@
     margin-top: 38px;
     margin-bottom: 36px;
     gap: 960px;
-    /* margin-top: 25px;
-    margin-bottom: 50px; */
+
 }
 
 nav > div> h3{
@@ -28,10 +27,11 @@ nav > div> h3{
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
-   
-    /* padding-top: 47px; */
+
     
 }
+
+/* nav bar button background code */
 .nav-content> div > button{
    
     box-sizing: border-box;
@@ -44,7 +44,7 @@ nav > div> h3{
 
 }
 
-
+/* inside the button /text */
 .nav-btn>button>a{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -61,7 +61,7 @@ nav > div> h3{
 
 
 
-/* Banner css code */
+/* ---------- Banner css code------------- */
 
 #banner{
     /* width: 1510px; */
@@ -76,8 +76,6 @@ nav > div> h3{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
-    /* margin-top: 70px; */
     margin-bottom: 74px;
 }
 
@@ -93,7 +91,6 @@ nav > div> h3{
 .banner-content{
     width: 998px;
     height: 212px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -115,7 +112,6 @@ nav > div> h3{
 .banner-content-description{
     width: 852px;
     height: 52px;
- 
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 15px;
@@ -131,7 +127,6 @@ nav > div> h3{
 {
     margin-top: 53px;
 
-    
 }
 .banner-text-btn{
 /* background */
@@ -153,7 +148,6 @@ nav > div> h3{
 
 /* why-web-dev er main section er alingment fixing css code  */
 #why-web-dev{
-
     margin: 0 auto;
     width: 1140px;
     height: 1390px;
@@ -162,7 +156,6 @@ nav > div> h3{
     justify-content: flex-start;
     align-items: center;
     padding: 80px 97px 80px 97px;
-
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 90px;
@@ -171,13 +164,13 @@ nav > div> h3{
 /* header and description er text formating  css code */
 .why-header{
 
-    position: static;
     width: 852px;
     height: 113px;
-
     margin:80px 0 48px 0;
 }
 
+
+/* H1 title css code */
 .why-title{
     width: 852px;
     height: 37px;
@@ -186,10 +179,10 @@ nav > div> h3{
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
+/* css code for  p */
 .why-description{
     width: 852px;
     height: 52px;
@@ -198,7 +191,6 @@ nav > div> h3{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     margin-top: 24px;
 }
@@ -233,9 +225,8 @@ nav > div> h3{
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
+    line-height: 26px;
     margin-bottom: 16px;
     width: 390px;
     height: 72px;
@@ -249,7 +240,6 @@ nav > div> h3{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
     opacity: 0.7;
     width: 468px;
@@ -277,7 +267,7 @@ nav > div> h3{
     line-height: 23px;
     text-align: center;
     margin: 0px 10px;
-    /* padding: 12px 20px 12px 20px; */
+
     text-decoration: none;
 }
 
@@ -308,7 +298,7 @@ nav > div> h3{
 
 
 
-/* inspiration section  */
+/* ---------inspiration section --------- */
 
 
 /* inspiration  full box content er alingment er css code */
@@ -320,7 +310,6 @@ nav > div> h3{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     margin-bottom: 151px;
 }
 
@@ -330,7 +319,6 @@ nav > div> h3{
     width: 852px;
     height: 113px;
     margin: 48px 0px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -357,7 +345,6 @@ nav > div> h3{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     margin: 24px 0px;
@@ -376,7 +363,6 @@ nav > div> h3{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -400,15 +386,14 @@ nav > div> h3{
 
 #current-target{
 
-margin: 0 auto;
+    margin: 0 auto;
     width: 1140px;
-height: 460px;
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-margin-bottom: 111px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 111px;
         
 }
 
@@ -448,7 +433,6 @@ margin-bottom: 111px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-
     width: 1140px;
     height: 299px;
 }
@@ -458,7 +442,6 @@ margin-bottom: 111px;
 
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -474,8 +457,6 @@ margin-bottom: 111px;
 .card-content{
     width: 284px;
     height: 219px;
-
-    
 
 }
 
@@ -499,7 +480,6 @@ margin-bottom: 111px;
     line-height: 26px;
     text-align: left;
     opacity: 0.7;
-    /* margin-bottom: 24px; */
     margin: 8px 0px;
     width: 284px;
     height: 52px;
@@ -592,7 +572,6 @@ margin-bottom: 111px;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
-    letter-spacing: 0%;
     text-align: left;
     margin: 8px 0;
     }
